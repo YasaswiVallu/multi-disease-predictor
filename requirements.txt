@@ -9,3 +9,4 @@ streamlit
 anthropic
 joblib
 python-dotenv
+groq

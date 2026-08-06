@@ -29,3 +29,50 @@ VitalSense AI is a machine learning powered web application that screens for **H
 - **Language:** Python
 
 ## 📂 Project Structure
+multi-disease-predictor/
+├── app/
+│ └── main.py # Streamlit application
+├── data/ # Training datasets
+├── models/ # Trained .pkl model files
+├── notebooks/ # Model training scripts
+├── requirements.txt
+└── .env # API keys (not committed)
+
+
+## ⚙️ Setup & Installation
+
+1. Clone the repository
+```bash
+   git clone https://github.com/YasaswiVallu/multi-disease-predictor.git
+   cd multi-disease-predictor
+```
+
+2. Create and activate a virtual environment
+```bash
+   python -m venv venv
+   venv\Scripts\activate   # Windows
+```
+
+3. Install dependencies
+```bash
+   pip install -r requirements.txt
+```
+
+4. Add your Groq API key in a `.env` file (project root)
+
+GROQ_API_KEY=your_key_here
+
+
+5. Run the app
+```bash
+   cd app
+   streamlit run main.py
+```
+
+## ⚠️ Disclaimer
+
+This tool is built for educational and portfolio purposes. It uses ML models trained on public datasets and is **not a substitute for professional medical advice or diagnosis**. Always consult a certified healthcare provider for medical decisions.
+
+## 👤 Author
+
+**Vallu Yasaswi**
